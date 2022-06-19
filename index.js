@@ -30,7 +30,7 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
      ██    ██    ██    ██ ██  ██  ██ ██   ██ ██      ██            
 ███████    ██     ██████  ██      ██ ██████  ███████ ███████    
 
-By : ${chalk.red('@dkmpostor')} - ${chalk.blue('https://dkmpostor.herokuapp.com/')}
+By : ${chalk.red('@Only_NoRealss')} - ${chalk.blue('X CHEAT DEVELOPER SINCE 2019')}
 `);
 
     const auth = rs.question('[+] Enter your auth token : ');
@@ -54,7 +54,7 @@ By : ${chalk.red('@dkmpostor')} - ${chalk.blue('https://dkmpostor.herokuapp.com/
             
             console.log(chalk.green(`\r[ ${moment().format('HH:mm:ss')} ] Nickname : ${username} | Country : ${country} | ${chalk.yellow(`Trophy : ${trophy}`)} | ${chalk.blue(`Crown : ${crown}`)}`));
             
-        } else if (result == 'BANNED') {
+        } else if (result == 'YOUR ACCOUNT HAS BANNED') {
 
             console.log(chalk.red(`\r[ ${moment().format('HH:mm:ss')} ] Banned !`));
             break;
