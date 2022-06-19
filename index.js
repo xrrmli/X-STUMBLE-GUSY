@@ -32,7 +32,7 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 ╚═╝  ╚═╝    ╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝
 ${chalk.green('Note : use this tool at 11.00 to 16.00 so as not to get banned')}
 ${chalk.red('Type : X TOOL BY NOREALS')}
-By : ${chalk.red('@Only_NoRealss')} - ${chalk.green'X CHEAT DEVELOPER SINCE 2019')}
+By : ${chalk.red('@Only_NoRealss')} - ${chalk.green('X CHEAT DEVELOPER SINCE 2019')}
 `);
 
     const auth = rs.question('[+] Enter your auth token : ');
