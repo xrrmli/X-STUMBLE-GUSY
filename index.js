@@ -24,14 +24,15 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 (async () => {
 
     console.log(`
- ${chalk.red(' ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄')}
- ${chalk.green(' █▄▀█▀▄████░▀██░██░▄▄▄░██░▄▄▀██░▄▄▄█░▄▄▀██░█████░▄▄▄░')}
- ${chalk.yellow(' ███░██████░█░█░██░███░██░▀▀▄██░▄▄▄█░▀▀░██░█████▄▄▄▀▀')}
- ${chalk.blue(' █▀▄█▄▀████░██▄░██░▀▀▀░██░██░██░▀▀▀█░██░██░▀▀░██░▀▀▀░')}
- ${chalk.cyan(' ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀')}
-
-
-By : ${chalk.red('@Only_NoRealss')} - ${chalk.blue('X CHEAT DEVELOPER SINCE 2019')}
+██╗  ██╗    ███╗   ██╗ ██████╗ ██████╗ ███████╗ █████╗ ██╗     ███████╗
+╚██╗██╔╝    ████╗  ██║██╔═══██╗██╔══██╗██╔════╝██╔══██╗██║     ██╔════╝
+ ╚███╔╝     ██╔██╗ ██║██║   ██║██████╔╝█████╗  ███████║██║     ███████╗
+ ██╔██╗     ██║╚██╗██║██║   ██║██╔══██╗██╔══╝  ██╔══██║██║     ╚════██║
+██╔╝ ██╗    ██║ ╚████║╚██████╔╝██║  ██║███████╗██║  ██║███████╗███████║
+╚═╝  ╚═╝    ╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝
+${chalk.green('Note : use this tool at 11.00 to 16.00 so as not to get banned')}
+${chalk.red('Type : X TOOL BY NOREALS')}
+By : ${chalk.red('@Only_NoRealss')} - ${chalk.green'X CHEAT DEVELOPER SINCE 2019')}
 `);
 
     const auth = rs.question('[+] Enter your auth token : ');
@@ -55,7 +56,7 @@ By : ${chalk.red('@Only_NoRealss')} - ${chalk.blue('X CHEAT DEVELOPER SINCE 2019
             
             console.log(chalk.green(`\r[ ${moment().format('HH:mm:ss')} ] Nickname : ${username} | Country : ${country} | ${chalk.yellow(`Trophy : ${trophy}`)} | ${chalk.blue(`Crown : ${crown}`)}`));
             
-        } else if (result == 'YOUR ACCOUNT HAS BANNED') {
+        } else if (result == 'YOUR ACCOUNT HAS BANNED!!') {
 
             console.log(chalk.red(`\r[ ${moment().format('HH:mm:ss')} ] Banned !`));
             break;
