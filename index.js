@@ -55,7 +55,8 @@ By : ${chalk.red('@Only_NoRealss')} - ${chalk.green('X CHEAT DEVELOPER SINCE 201
             const crown = data.User.Crowns;
             
             console.log(chalk.green(`\r[ ${moment().format('HH:mm:ss')} ] Nickname : ${username} | Country : ${country} | ${chalk.yellow(`Trophy : ${trophy}`)} | ${chalk.blue(`Crown : ${crown}`)}`));
-            
+            await sleep(2500);
+
         } else if (result == 'YOUR ACCOUNT HAS BANNED!!') {
 
             console.log(chalk.red(`\r[ ${moment().format('HH:mm:ss')} ] Banned !`));
