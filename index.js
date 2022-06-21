@@ -47,8 +47,7 @@ By : ${chalk.red('@Only_NoRealss')} - ${chalk.green('X CHEAT DEVELOPER SINCE 201
         const result = await GoStumble(auth);
         if (!result) {
 
-            console.log(chalk.red(`\r[ ${moment().format('HH:mm:ss')} ] Wrong cookie or Expired cookie !`));
-            break;
+            
 
         } else if (result.includes('User')) {
 
