@@ -36,7 +36,7 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 ╚═╝  ╚═╝    ╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝
 ${chalk.green('Note : use this tool at 11.00 to 16.00 so as not to get banned')}
 ${chalk.red('Type : X TOOL BY NOREALS V3.2.0')}
-By : ${chalk.red('@Only_NoRealss')} - ${chalk.green('X CHEAT DEVELOPER SINCE 2019')}
+By : ${chalk.red('@kontol')} - ${chalk.green('X CHEAT DEVELOPER SINCE 2019')}
 `);
 
     const auth = rs.question('[+] Enter your auth token : ');
@@ -58,7 +58,7 @@ By : ${chalk.red('@Only_NoRealss')} - ${chalk.green('X CHEAT DEVELOPER SINCE 201
             const crown = data.User.Crowns;
             
             console.log(chalk.green(`\r[ ${moment().format('HH:mm:ss')} ] Nickname : ${username} | Country : ${country} | ${chalk.yellow(`Trophy : ${trophy}`)} | ${chalk.blue(`Crown : ${crown}`)}`));
-            await sleep(2500);
+            await sleep(25000);
 
         } else if (result == 'YOUR ACCOUNT HAS BANNED!!') {
 
